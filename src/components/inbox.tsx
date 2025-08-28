@@ -25,7 +25,7 @@ const Inbox = () => {
       >
         <>
           <div style={{ marginBottom: "1rem" }}>
-            <NotificationIconButton onClick={(e) => {}} />
+            <NotificationIconButton onClick={() => {}} />
           </div>
           <div style={{ width: "420px", height: "550px" }}>
             <NotificationFeed />
